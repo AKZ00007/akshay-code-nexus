@@ -33,8 +33,8 @@ export const Hero = () => {
               </h1>
               <div className="text-xl sm:text-2xl text-gray-300 mb-6 animate-fade-in delay-200">
                 <span className="text-blue-400">Developer</span> | 
-                <span className="text-purple-400"> AI Enthusiast</span> | 
-                <span className="text-green-400"> Geospatial Innovator</span>
+                <span className="text-purple-400"> Tech Enthusiast</span> | 
+                <span className="text-pink-400"> Designer</span>
               </div>
               <p className="text-lg text-gray-400 max-w-2xl mx-auto lg:mx-0 animate-fade-in delay-300">
                 Passionate Software Developer (2026 Batch) with hands-on experience across 15+ projects in Python and JavaScript, 
@@ -56,10 +56,14 @@ export const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8 animate-fade-in delay-500">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-lg group">
+              <a
+                href="/resume.pdf"
+                download
+                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-lg group flex items-center justify-center rounded"
+              >
                 <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
                 Download Resume
-              </Button>
+              </a>
               <Button 
                 variant="outline" 
                 onClick={scrollToProjects}
@@ -78,7 +82,7 @@ export const Hero = () => {
               <a href="#" className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors group">
                 <Linkedin className="h-5 w-5 text-gray-400 group-hover:text-blue-400" />
               </a>
-              <a href="#" className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors group">
+              <a href="mailto:aksp.2004rm@gmail.com" className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors group">
                 <Mail className="h-5 w-5 text-gray-400 group-hover:text-green-400" />
               </a>
             </div>
@@ -90,7 +94,7 @@ export const Hero = () => {
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-blue-600 p-1">
                 <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center">
                   <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                    src="/myphoto.jpg"
                     alt="Akshay N Dolainkar"
                     className="w-72 h-72 rounded-full object-cover"
                   />
