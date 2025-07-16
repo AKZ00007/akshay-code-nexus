@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# 💼 Akshay N D – Developer Portfolio
 
-## Project info
+Welcome to my personal portfolio website! This site showcases my projects, technical skills, achievements, and experience as a passionate software developer specializing in AI, full-stack web development, and geospatial technologies.
 
-**URL**: https://lovable.dev/projects/c8f2671d-86c1-4033-8163-de15915f0690
+Live Site: [https://your-portfolio-url.com](https://your-portfolio-url.com)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📌 Overview
 
-**Use Lovable**
+This portfolio is designed to highlight:
+- 15+ diverse real-world projects in **Python**, **JavaScript**, **AI/ML**, **Web**, **Geospatial**, and **Mobile App Development**
+- Core technical and coding skills with a clean, tech-inspired UI
+- Achievements including hackathon wins and industry collaboration
+- Resume download, contact form, and social profile links
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c8f2671d-86c1-4033-8163-de15915f0690) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Features
 
-**Use your preferred IDE**
+- Fully responsive design with dark/light mode toggle
+- Clean sectioned layout (About, Skills, Projects, Achievements, Contact)
+- Animated transitions using Framer Motion (if React-based)
+- Downloadable resume and social link integration
+- Built with scalability and developer-readability in mind
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+| Category        | Tech Used                                 |
+|----------------|--------------------------------------------|
+| Frontend        | HTML, CSS, Tailwind CSS, JavaScript, React.js, Flutter (for app projects) |
+| Backend         | Flask, FastAPI, Flask-SocketIO            |
+| AI/ML           | TensorFlow, Hugging Face, LangChain, FAISS, ChromaDB |
+| Geospatial      | GeoPandas, Shapely, Google Earth Engine (GEE), Folium |
+| Tools & DevOps  | Git, GitHub, Docker, Postman, Firebase, Vite |
+| Deployment      | GitHub Pages / Vercel / Netlify (choose one) |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 📈 Notable Projects Included
+
+- **GIS-AI Assistant** – Spatial query to geoprocessing workflow system using GPT-4 + GEE
+- **Sleek Talk Nexus** – Chat app using Hugging Face LLM + Flask + React
+- **RAG PDF/URL Chatbot** – Real-time chat with embedded knowledge from PDFs & links
+- **Level Up Life** – Habit tracker mobile app built with Flutter
+- **AI Sign Language Detection** – TensorFlow + Flask-SocketIO gesture-to-speech translator
+- **Habitat Knee Monitor** – Health-tech posture monitoring system for hospitals
+
+---
+
+## 🧑‍💻 How to Use Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/portfolio.git
+
+# Navigate to the project directory
+cd portfolio
+
+# Install dependencies (if React-based)
+npm install
+
+# Run the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c8f2671d-86c1-4033-8163-de15915f0690) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+  
